@@ -6,6 +6,11 @@ function change() {
     }
 }
 
+function squareChange(x){
+    var x = document.getElementById(x);
+    x.style.backgroundColor = "rgb(" + (Math.floor(Math.random() * 256)) + "," + (Math.floor(Math.random() * 256)) + "," + (Math.floor(Math.random() * 256)) + ")";
+}
+
 /*function changeColour(){
     document.getElementById("sq").style.backgroundColor = "rgb(" + (Math.floor(Math.random() * 20) + 230) + "," + (Math.floor(Math.random() * 20) + 230) + "," + (Math.floor(Math.random() * 20) + 230) + ")"
 }
