@@ -16,7 +16,23 @@ body{
 
 .square{
     width: 200px;
-    height: 200px;
-    border: 1px solid black;
+    height: 190px;
     display: table-cell;
+    padding-bottom: 10px;
+    vertical-align: bottom;
+}
+
+.white_square{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.black_square{
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    background-color: black;
+    margin-bottom: 5px;
 }
