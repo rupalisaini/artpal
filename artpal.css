@@ -20,6 +20,8 @@ body{
     display: table-cell;
     padding-bottom: 10px;
     vertical-align: bottom;
+    border-radius: 50px;
+    border: 1px solid white;
 }
 
 .white_square{
