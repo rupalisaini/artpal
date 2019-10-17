@@ -1,3 +1,5 @@
+@import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
+
 body{
     background-color: black;
     text-align: center;
@@ -28,6 +30,7 @@ body{
     width: 200px;
     display: table-cell;
     color: white;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
 .white_square{
