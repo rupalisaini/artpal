@@ -24,6 +24,12 @@ body{
     border: 1px solid white;
 }
 
+.label{
+    width: 200px;
+    display: table-cell;
+    color: white;
+}
+
 .white_square{
     width: 20px;
     height: 20px;
