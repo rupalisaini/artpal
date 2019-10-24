@@ -1,3 +1,4 @@
+//changes entire palette
 function change() {
     var x=document.getElementsByClassName("square");
     var i;
@@ -10,6 +11,7 @@ function change() {
     }
 }
 
+//changes single square in palette
 function squareChange(x){
     var square = document.getElementById(x);
     let id = "label" + x;
@@ -23,6 +25,7 @@ function squareChange(x){
     square.style.borderColor = "transparent";
 }
 
+//changes background to white
 function toWhite(){
     document.body.style.backgroundColor = "white";
     var x=document.getElementsByClassName("square");
@@ -37,6 +40,7 @@ function toWhite(){
     }
 }
 
+//changes background to black
 function toBlack(){
     document.body.style.backgroundColor = "black";
     var x=document.getElementsByClassName("square");
