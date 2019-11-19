@@ -3,6 +3,8 @@ Art Palette is a helpful online tool meant for artists searching for inspiration
 
 It randomizes color combinations until you land on one you like — from there, you can you use it however you want in your project.
 
+Test it here! :) https://repl.it/@rupalisaini/artpal
+
 # What is in development?
 Option to locally store your palettes<br>
 Mixing saved palettes with each other<br>
